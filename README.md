@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+# Cadeia de Valor - Segurança e Saúde no Trabalho (SST)
 
-## Project info
+Uma aplicação web interativa para visualização da cadeia de valor organizacional com foco em Segurança e Saúde no Trabalho, desenvolvida para o SESI.
 
-**URL**: https://lovable.dev/projects/e05cfbb9-8677-4edb-82c4-0d800f31ced4
+## 🎯 Sobre o Projeto
 
-## How can I edit this code?
+Esta aplicação apresenta de forma visual e interativa a cadeia de valor organizacional, destacando:
 
-There are several ways of editing your application.
+- **Processos Principais**: Atividades core do negócio
+- **Processos de Apoio**: Suporte e infraestrutura organizacional  
+- **Processos de Gestão**: Governança e direcionamento estratégico
+- **Stakeholders**: Relacionamentos com clientes, parceiros, fornecedores e sociedade
 
-**Use Lovable**
+## 🚀 Tecnologias Utilizadas
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e05cfbb9-8677-4edb-82c4-0d800f31ced4) and start prompting.
+- **React 18** - Biblioteca para interfaces de usuário
+- **TypeScript** - Tipagem estática para JavaScript
+- **Vite** - Build tool e dev server
+- **Tailwind CSS** - Framework CSS utilitário
+- **shadcn/ui** - Componentes de UI modernos
+- **Lucide React** - Ícones SVG otimizados
+- **React Router** - Roteamento client-side
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🎨 Características Visuais
 
-**Use your preferred IDE**
+- **Design System SESI**: Cores institucionais (azul #0d6efd e laranja #fd7e14)
+- **Tema Claro/Escuro**: Alternância automática de temas
+- **Ícones Personalizados**: Representação visual dos processos
+- **Responsivo**: Adaptável a diferentes tamanhos de tela
+- **Animações Suaves**: Transições e efeitos visuais elegantes
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📦 Instalação e Execução
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Pré-requisitos
+- Node.js 18+ 
+- npm ou yarn
 
-Follow these steps:
+### Passos para execução local
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# 1. Clone o repositório
+git clone <URL_DO_REPOSITORIO>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Navegue até o diretório
+cd cadeia-valor-saude
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Instale as dependências
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Execute o servidor de desenvolvimento
 npm run dev
+
+# 5. Acesse no navegador
+# http://localhost:5173
 ```
 
-**Edit a file directly in GitHub**
+## 🛠️ Scripts Disponíveis
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Desenvolvimento
+npm run dev
 
-**Use GitHub Codespaces**
+# Build de produção
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Build de desenvolvimento
+npm run build:dev
 
-## What technologies are used for this project?
+# Linting
+npm run lint
 
-This project is built with:
+# Preview da build
+npm run preview
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📁 Estrutura do Projeto
 
-## How can I deploy this project?
+```
+src/
+├── components/          # Componentes React
+│   ├── icons/          # Ícones customizados
+│   └── ui/             # Componentes de UI base
+├── data/               # Dados dos processos
+├── hooks/              # Hooks customizados
+├── pages/              # Páginas da aplicação
+├── styles/             # Estilos CSS
+└── utils/              # Utilitários e helpers
+```
 
-Simply open [Lovable](https://lovable.dev/projects/e05cfbb9-8677-4edb-82c4-0d800f31ced4) and click on Share -> Publish.
+## 🎨 Identidade Visual
 
-## Can I connect a custom domain to my Lovable project?
+O projeto segue rigorosamente o manual de identidade visual do SESI:
 
-Yes, you can!
+- **Azul Institucional**: `#0d6efd` - Confiança e segurança
+- **Laranja Institucional**: `#fd7e14` - Criatividade e energia
+- **Degradês Harmoniosos**: Transições suaves entre as cores
+- **Tipografia**: Fontes system com fallbacks apropriados
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📋 Funcionalidades
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- ✅ Visualização interativa da cadeia de valor
+- ✅ Modais informativos para cada processo
+- ✅ Alternância de temas (claro/escuro)
+- ✅ Design responsivo
+- ✅ Ícones personalizados por categoria
+- ✅ Animações e transições suaves
+- ✅ Conformidade com identidade visual SESI
+
+## 🔧 Configuração de Desenvolvimento
+
+O projeto utiliza:
+
+- **ESLint** para linting de código
+- **TypeScript** para tipagem estática
+- **Tailwind CSS** para estilização
+- **Vite** para build e desenvolvimento
+
+## 📄 Licença
+
+Este projeto foi desenvolvido para o SESI e segue as diretrizes de propriedade intelectual da organização.
+
+## 🤝 Contribuição
+
+Para contribuir com o projeto:
+
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## 📞 Suporte
+
+Para dúvidas ou suporte, entre em contato com a equipe de desenvolvimento do SESI.

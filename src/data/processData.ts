@@ -91,13 +91,13 @@ export const processData = {
     dono: 'Noah Verde', 
     subprocessos: ['Administrar Prospecção e Qualificação de Leads de Saúde e Segurança para Indústria']
   },
-  'vendas-saude': { 
-    dono: 'Gabriela Barella', 
-    subprocessos: ['Realizar Vendas Saúde B2B', 'Realizar Vendas Saúde B2C', 'Realizar Vendas Saúde B2G']
+  'vendas-seguranca-trabalho': { 
+    dono: 'Kledson Cavalcante', 
+    subprocessos: ['Realizar Vendas Segurança no Trabalho B2B', 'Realizar Vendas Segurança no Trabalho B2G', 'Realizar Vendas Segurança no Trabalho B2C']
   },
-  'gerenciar-saude': { 
-    dono: 'Carolina Albuquerque', 
-    subprocessos: ['Administrar Serviços de Saúde Ocupacional (PCMSO, PCA e PERÍCIA)', 'Administrar ASO', 'Administrar Consultas / Exames de Saúde', 'Administrar Acesso do Paciente / Cliente', 'Administrar Processamento de Materiais', 'Administrar Equipamentos Médicos', 'Administrar Serviços de Vacina', 'Administrar Serviços de Promoção à Saúde', 'Administrar Unidades Móveis']
+  'gerenciar-seguranca-trabalho': { 
+    dono: 'Kledson Cavalcante', 
+    subprocessos: ['Administrar Serviços de Segurança no Trabalho (Programas, Laudos e Demais Serviços)', 'Administrar Serviços de Educação Corporativa (Treinamentos Normativos)']
   },
   'contas-receber': { 
     dono: 'Thiago Lima', 

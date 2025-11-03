@@ -126,6 +126,29 @@
     margin-bottom: 10px;
 }
 
+/* Título com degradê SESI - cores institucionais */
+.cadeia-valor-header h1.gradient-title {
+    background: linear-gradient(90deg, #0d6efd 0%, #fd7e14 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    /* Fallback para navegadores que não suportam gradient text */
+    color: #0d6efd;
+    text-shadow: none;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Suporte para navegadores que não suportam background-clip: text */
+@supports not (-webkit-background-clip: text) {
+    .cadeia-valor-header h1.gradient-title {
+        color: #0d6efd;
+        background: none;
+    }
+}
+
 .cadeia-valor-header .sub-title {
     font-size: 26px;
     font-weight: 600;

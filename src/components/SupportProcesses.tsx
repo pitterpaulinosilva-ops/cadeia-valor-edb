@@ -1,5 +1,7 @@
 
 import React from 'react';
+import { SupportIcon } from '@/components/icons/CustomIcons';
+import '@/components/icons/CustomIcons.css';
 
 interface SupportProcessesProps {
   onProcessClick: (event: React.MouseEvent) => void;
@@ -8,11 +10,8 @@ interface SupportProcessesProps {
 const SupportProcesses: React.FC<SupportProcessesProps> = ({ onProcessClick }) => {
   return (
     <div className="support-processes process-section">
-      <div className="section-title">
-        <svg className="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="0.4" d="M12 3L20.4431 6.88351C20.7874 7.05566 21 7.42003 21 7.82114V15.3569C21 15.7579 20.7874 16.1223 20.4431 16.2945L12 20.178L3.55688 16.2945C3.21256 16.1223 3 15.7579 3 15.3569V7.82114C3 7.42003 3.21256 7.05566 3.55688 6.88351L12 3Z" fill="var(--green-primary)"/>
-          <path d="M12 3L20.4431 6.88351C20.7874 7.05566 21 7.42003 21 7.82114V15.3569C21 15.7579 20.7874 16.1223 20.4431 16.2945L12 20.178L3.55688 16.2945C3.21256 16.1223 3 15.7579 3 15.3569V7.82114C3 7.42003 3.21256 7.05566 3.55688 6.88351L12 3Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
+      <div className="section-title icon-container">
+        <SupportIcon size={40} className="custom-icon support-icon glow-effect" />
         Processos de Apoio
       </div>
       

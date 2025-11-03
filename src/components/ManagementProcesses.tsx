@@ -1,4 +1,6 @@
 import React from 'react';
+import { ManagementIcon } from '@/components/icons/CustomIcons';
+import '@/components/icons/CustomIcons.css';
 
 interface ManagementProcessesProps {
   onProcessClick: (event: React.MouseEvent) => void;
@@ -7,12 +9,8 @@ interface ManagementProcessesProps {
 const ManagementProcesses: React.FC<ManagementProcessesProps> = ({ onProcessClick }) => {
   return (
     <div className="management-processes process-section">
-      <div className="section-title">
-        <svg className="icon" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-          <path opacity="0.4" d="M12.9142 4.23224L17.2929 8.61091C17.6834 9.00143 17.6834 9.6346 17.2929 10.0251L10.0251 17.2929C9.6346 17.6834 9.00143 17.6834 8.61091 17.2929L4.23224 12.9142C3.84171 12.5237 3.84171 11.8905 4.23224 11.499L11.499 4.23224C11.8905 3.84171 12.5237 3.84171 12.9142 4.23224Z" fill="var(--blue-primary)"/>
-          <path d="M10.8284 6.32843L6.32843 10.8284C5.92852 11.2283 5.93713 11.8614 6.34814 12.249L9.75104 15.6519C10.1621 16.0395 10.7952 16.0309 11.1851 15.631L15.6851 11.131C16.085 10.7311 16.0764 10.098 15.6654 9.71036L12.2625 6.30746C11.8726 5.91755 11.2393 5.91755 10.8494 6.30746" stroke="white" strokeWidth="1.5"/>
-          <path d="M19.5 12.5L12.5 19.5" stroke="var(--blue-primary)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
+      <div className="section-title icon-container">
+        <ManagementIcon size={40} className="custom-icon management-icon glow-effect" />
         Processos de Gestão
       </div>
       <div className="linear-flow flow-fill-width">
