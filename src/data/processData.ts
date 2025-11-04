@@ -89,63 +89,63 @@ export const processData = {
   // Negócio
   'gerenciar-ciclo-leads-educacao-basica': {
     dono: 'Noah Verde',
-    subprocessos: []
+    subprocessos: ['Administrar Prospecção e Qualificação de Leads de Educação Básica']
   },
   'gerenciar-vendas-educacao-basica': {
     dono: 'Gabriela Barella',
-    subprocessos: []
+    subprocessos: ['Realizar Venda de Educação Básica B2C', 'Realizar Venda de Educação Básica B2B', 'Realizar Venda de Educação Básica B2G', 'Administrar Contratos de Educação Básica']
   },
   'planejar-operacao-educacao-basica': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Estruturar Modelo de Operação da Educação Básica', 'Estruturar Modelo Pedagógico da Educação Básica', 'Estruturar Modelo De Projetos E Programas Educacionais da Educação Básica', 'Preparar Operação da Educação Básica']
   },
   'ensino-avaliacao-certificacao-educacao-basica': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Realizar Processos de Ensino-Aprendizagem de Educação Básica', 'Monitorar Processos de Ensino-Aprendizagem e Avaliação dos serviços de Educação Básica']
   },
   'gerenciar-oferta-servicos-educacao-basica': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Ofertar Serviços de Educação Básica']
   },
   'atendimentos-administrativos-educacao-basica': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Gerir a situação acadêmica do aluno da Educação Básica', 'Gerir os Requerimentos da Educação Básica', 'Realizar gestão de regulação da Educação Básica']
   },
   'planejar-operacao-eja': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Estruturar Modelo Pedagógico da Modalidade de Jovens e Adultos (EJA)', 'Estruturar Modelo de Operação da Modalidade de Jovens e Adultos (EJA)', 'Estruturar projetos e programas educacionais da Modalidade de Jovens e Adultos (EJA)', 'Preparar Operação da Modalidade de Jovens e Adultos (EJA)']
   },
   'gerenciar-oferta-servicos-eja': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Ofertar serviços da Modalidade de Jovens e Adultos (EJA)']
   },
   'ensino-avaliacao-certificacao-eja': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Realizar Processos de Ensino-Aprendizagem da Modalidade de Jovens e Adultos (EJA)', 'Monitorar Processos de Ensino-Aprendizagem e Avaliação dos serviços da Modalidade de Jovens e Adultos (EJA)']
   },
   'atendimentos-administrativos-eja': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Gerir a situação acadêmica do aluno da Modalidade de Jovens e Adultos (EJA)', 'Gerir os Requerimentos da Modalidade de Jovens e Adultos (EJA)', 'Realizar gestão de regulação da Modalidade de Jovens e Adultos (EJA)']
   },
   'planejar-operacao-projetos-programas-educacionais': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Estruturar Modelo de Operação de Projetos E Programas Educacionais', 'Estruturar Modelo Pedagógico de Projetos E Programas Educacionais', 'Estruturar Modelo De Projetos E Programas Educacionais', 'Preparar Operação de Projetos E Programas Educacionais', 'Realizar Processos de Ensino-Aprendizagem de Projetos E Programas Educacionais']
   },
   'gerenciar-oferta-servicos-projetos-programas': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Monitorar Processos de Ensino-Aprendizagem e Avaliação dos serviços de Projetos E Programas Educacionais']
   },
   'ensino-avaliacao-certificacao-projetos-programas': {
     dono: 'Marseille Santana',
-    subprocessos: []
+    subprocessos: ['Ofertar Serviços de Projetos E Programas Educacionais']
   },
   'gerenciar-contas-receber-educacao-basica': {
     dono: 'Thiago Lima',
     subprocessos: []
   },
   'gerenciar-voz-cliente-educacao-basica': {
-    dono: 'Thiago Lima',
-    subprocessos: []
+    dono: 'Rayra Medeiros',
+    subprocessos: ['Administrar SAC de Educação Básica', 'Administrar Recursos por Negativa de Informação pelo SAC de Educação Básica', 'Administrar Ouvidoria de Educação Básica', 'Administrar Denúncias de Educação Básica', 'Realizar Pesquisa de Satisfação do Cliente de Educação Básica']
   },
   'vendas-seguranca-trabalho': { 
     dono: 'Kledson Cavalcante', 
@@ -157,7 +157,7 @@ export const processData = {
   },
   'contas-receber': { 
     dono: 'Thiago Lima', 
-    subprocessos: ['Administrar Faturamento dos Serviços de Saúde e Segurança para Indústria', 'Administrar Faturamento de Saúde e Segurança para Indústria (Ponto de Venda)', 'Administrar a Recuperação de Crédito de Saúde e Segurança para Indústria', 'Administrar Faturamento dos Serviços de Estágio (IEL)', 'Administrar Faturamento dos Serviços de Aprendizagem (IEL)', 'Administrar Faturamento dos Demais Serviços (Locação, Energia das Cantinas, Plano de Saúde...)', 'Monitorar Arrecação Direta', 'Monitorar o Demonstrativo Mensal de Recebimento (Projeto, Fomento, SGF, AL, BNDES, Receita do Compulsório)']
+    subprocessos: ['Administrar faturamento dos Serviços de Educação Básica', 'Administrar Faturamento de Educação Básica (Ponto de Venda)', 'Administrar a Recuperação de Crédito de Educação Básica']
   },
   'voz-cliente': { 
     dono: 'Rayra Medeiros', 
