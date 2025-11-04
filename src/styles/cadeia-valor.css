@@ -30,36 +30,7 @@
     --scrollbar-track: #f1f1f1;
 }
 
-[data-theme="dark"] {
-    --blue-light: #1a2c4b;
-    --blue-dark: #90caf9;
-    --blue-primary: #42a5f5;
-    --blue-secondary: #64b5f6;
-    --orange-light: #3e2723;
-    --orange-dark: #ffcc80;
-    --orange-primary: #ffa726;
-    --green-light: #1b3a23;
-    --green-dark: #a5d6a7;
-    --green-primary: #66bb6a;
-    --green-lighter: #81c784;
-    --purple-light: #2c1f3e;
-    --purple-dark: #ce93d8;
-    --purple-primary: #ba68c8;
-    --text-dark: #e0e0e0;
-    --text-light: #212529;
-    --background-grad: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
-    --container-bg: #212529;
-    --stakeholder-bg: #343a40;
-    --stakeholder-title-bg: #495057;
-    --modal-bg: #343a40;
-    --modal-close-bg: #495057;
-    --modal-close-hover-bg: #5a6268;
-    --border-color: #495057;
-    --shadow-color: rgba(0,0,0,0.5);
-    --scrollbar-thumb: #555;
-    --scrollbar-thumb-hover: #777;
-    --scrollbar-track: #333;
-}
+/* Dark theme removed as per request. Only light theme remains. */
 
 * {
     margin: 0;
@@ -227,7 +198,7 @@
 .stakeholder-title {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    background-color: var(--stakeholder-title-bg); 
+    background: linear-gradient(90deg, #0d6efd 0%, #fd7e14 50%, #198754 100%);
     color: white;
     font-weight: 700;
     font-size: 20px;
@@ -235,7 +206,7 @@
     padding: 15px 10px;
     border-radius: 10px 0 0 10px;
     text-transform: uppercase;
-    transition: background-color 0.3s ease;
+    transition: background 0.3s ease;
 }
 
 .stakeholder-content {
