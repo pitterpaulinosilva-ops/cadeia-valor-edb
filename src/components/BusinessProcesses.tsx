@@ -13,24 +13,108 @@ const BusinessProcesses: React.FC<BusinessProcessesProps> = ({ onProcessClick })
         <BusinessIcon size={40} className="custom-icon business-icon glow-effect" />
         Processos de Negócio
       </div>
+
+      {/* Primeira linha: apenas dois processos */}
       <div className="linear-flow flow-fill-width">
-        <div className="process-box" data-process-id="ciclo-leads"
+        <div className="process-box" data-process-id="gerenciar-ciclo-leads-educacao-basica"
              onClick={onProcessClick}>
-          GERENCIAR CICLO DE VIDA DE LEADS
+          GERENCIAR O CICLO DE VIDA DOS LEADS DE EDUCAÇÃO BÁSICA
         </div>
-        <div className="process-box" data-process-id="vendas-seguranca-trabalho"
+        <div className="process-box" data-process-id="gerenciar-vendas-educacao-basica"
              onClick={onProcessClick}>
-          GERENCIAR VENDAS SEGURANÇA NO TRABALHO
-        </div>
-        <div className="process-box" data-process-id="gerenciar-seguranca-trabalho"
-             onClick={onProcessClick}>
-          GERENCIAR SEGURANÇA NO TRABALHO
+          GERENCIAR VENDAS EDUCAÇÃO BÁSICA
         </div>
       </div>
-      <div className="full-width-parallel-process">
-        <div className="process-box" data-process-id="voz-cliente"
+
+      {/* Linhas individuais para os demais processos, mantendo ordem */}
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="planejar-operacao-educacao-basica"
              onClick={onProcessClick}>
-          GERENCIAR VOZ DO CLIENTE
+          PLANEJAROPERAÇÃODAEDUCAÇÃOBÁSICA
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="ensino-avaliacao-certificacao-educacao-basica"
+             onClick={onProcessClick}>
+          REALIZARPROCESSODEENSINO-APRENDIZAGEM,AVALIAÇÃO,CERTIFICAÇÃODAEDUCAÇÃOBÁSICA
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="gerenciar-oferta-servicos-educacao-basica"
+             onClick={onProcessClick}>
+          GERENCIAROFERTADOSSERVIÇOSDAEDUCAÇÃOBÁSICA
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="atendimentos-administrativos-educacao-basica"
+             onClick={onProcessClick}>
+          REALIZARATENDIMENTOSADMINISTRATIVOSDAEDUCAÇÃOBÁSICA
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="planejar-operacao-eja"
+             onClick={onProcessClick}>
+          PLANEJAROPERAÇÃODAMODALIDADEDEJOVENSEADULTOS(EJA)
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="gerenciar-oferta-servicos-eja"
+             onClick={onProcessClick}>
+          GERENCIAROFERTADOSSERVIÇOSDAMODALIDADEDEJOVENSEADULTOS(EJA)
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="ensino-avaliacao-certificacao-eja"
+             onClick={onProcessClick}>
+          REALIZARPROCESSODEENSINO-APRENDIZAGEM,AVALIAÇÃO,CERTIFICAÇÃODAMODALIDADEDEJOVENSEADULTOS(EJA)
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="atendimentos-administrativos-eja"
+             onClick={onProcessClick}>
+          REALIZARATENDIMENTOSADMINISTRATIVOS(EJA)
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="planejar-operacao-projetos-programas-educacionais"
+             onClick={onProcessClick}>
+          PLANEJAROPERAÇÃODOSSERVIÇOSDEPROJETOSEPROGRAMASEDUCACIONAIS
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="gerenciar-oferta-servicos-projetos-programas"
+             onClick={onProcessClick}>
+          GERENCIAROFERTADOSSERVIÇOSDEPROJETOSEPROGRAMASEDUCACIONAIS
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="ensino-avaliacao-certificacao-projetos-programas"
+             onClick={onProcessClick}>
+          REALIZARPROCESSODEENSINO-APRENDIZAGEM,AVALIAÇÃO,CERTIFICAÇÃODOSSERVIÇOSDEPROJETOSEPROGRAMASEDUCACIONAIS
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="gerenciar-contas-receber-educacao-basica"
+             onClick={onProcessClick}>
+          GERENCIAR CONTAS A RECEBER DE EDUCAÇÃO BÁSICA
+        </div>
+      </div>
+
+      <div className="linear-flow flow-fill-width">
+        <div className="process-box" data-process-id="gerenciar-voz-cliente-educacao-basica"
+             onClick={onProcessClick}>
+          GERENCIAR VOZ DO CLIENTE DE EDUCAÇÃO BÁSICA
         </div>
       </div>
     </div>

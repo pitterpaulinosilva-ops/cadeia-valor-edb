@@ -87,9 +87,65 @@ export const processData = {
   },
 
   // Negócio
-  'ciclo-leads': { 
-    dono: 'Noah Verde', 
-    subprocessos: ['Administrar Prospecção e Qualificação de Leads de Saúde e Segurança para Indústria']
+  'gerenciar-ciclo-leads-educacao-basica': {
+    dono: 'Noah Verde',
+    subprocessos: []
+  },
+  'gerenciar-vendas-educacao-basica': {
+    dono: 'Gabriela Barella',
+    subprocessos: []
+  },
+  'planejar-operacao-educacao-basica': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'ensino-avaliacao-certificacao-educacao-basica': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'gerenciar-oferta-servicos-educacao-basica': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'atendimentos-administrativos-educacao-basica': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'planejar-operacao-eja': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'gerenciar-oferta-servicos-eja': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'ensino-avaliacao-certificacao-eja': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'atendimentos-administrativos-eja': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'planejar-operacao-projetos-programas-educacionais': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'gerenciar-oferta-servicos-projetos-programas': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'ensino-avaliacao-certificacao-projetos-programas': {
+    dono: 'Marseille Santana',
+    subprocessos: []
+  },
+  'gerenciar-contas-receber-educacao-basica': {
+    dono: 'Thiago Lima',
+    subprocessos: []
+  },
+  'gerenciar-voz-cliente-educacao-basica': {
+    dono: 'Thiago Lima',
+    subprocessos: []
   },
   'vendas-seguranca-trabalho': { 
     dono: 'Kledson Cavalcante', 
