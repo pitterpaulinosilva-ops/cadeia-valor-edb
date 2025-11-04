@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     <>
       {/* Botão de alternâncie de tema removido */}
       <div className="cadeia-valor-header">
-        <h1 className="gradient-title">
+        <h1 className="text-4xl font-bold uppercase gradient-title mb-4">
           Cadeia de Valor - Relacionamento com o Cliente de Educação Básica
         </h1>
         <div className="sesi-logo-container" style={{ display: 'flex', justifyContent: 'center', margin: '16px 0' }}>

@@ -90,16 +90,17 @@
 }
 
 .cadeia-valor-header h1 {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 16px;
     color: var(--text-dark);
     margin-bottom: 10px;
 }
 
 /* Título com degradê SESI - cores institucionais */
 .cadeia-valor-header h1.gradient-title {
-    background: linear-gradient(90deg, #0d6efd 0%, #fd7e14 100%);
+    background: linear-gradient(90deg, #0d6efd 0%, #fd7e14 50%, #22C55E 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -198,7 +199,7 @@
 .stakeholder-title {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    background: linear-gradient(90deg, #0d6efd 0%, #fd7e14 50%, #198754 100%);
+    background: linear-gradient(180deg, #198754 0%, #fd7e14 50%, #0d6efd 100%);
     color: white;
     font-weight: 700;
     font-size: 20px;
