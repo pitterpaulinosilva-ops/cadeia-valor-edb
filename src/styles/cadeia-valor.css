@@ -6,7 +6,7 @@
     --blue-secondary: #4ea8ff;
     --orange-light: #fff3e0;
     --orange-dark: #e65100;
-    --orange-primary: #fd7e14;
+    --orange-primary: #ff8c42;
     --green-light: #e8f5e9;
     --green-dark: #2e7d32;
     --green-primary: #198754;
@@ -364,6 +364,10 @@
 
 .box-lighter-green { 
     background: var(--green-lighter) !important; 
+}
+
+.box-dark-orange { 
+    background: #e8590c !important; 
 }
 
 .linear-flow {
